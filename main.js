@@ -7,8 +7,6 @@ const date = new Date();
 const daysOfTheWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
 const today = daysOfTheWeek[date.getDay()];
-console.log(date)
-
 
 const updateTime = () => {
   const date = new Date()
